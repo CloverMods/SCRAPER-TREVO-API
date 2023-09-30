@@ -43,6 +43,7 @@ module.exports = {
     );
   },
   
+  
   playMP3: async function(query, username, key) {
     return fetchData(
       '/anikit/playmp3',
