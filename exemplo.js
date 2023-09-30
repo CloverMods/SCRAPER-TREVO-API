@@ -2,8 +2,8 @@ const apiModule = require('./apiModule');
 
 // AVISO: Para usar este exemplo, você precisa fazer login em https://appp--trevodev.repl.co para obter seu nome de usuário e chave de autenticação.
 
-const username = 'Clover';
-const key = 'Clover';
+const username = 'seu username';
+const key = 'sua key';
 
 (async () => {
   try {
@@ -47,7 +47,7 @@ const key = 'Clover';
     const tiktokDownloadLink = await apiModule.getTikTokVideoDownloadLink(tiktokVideoUrl, username, key);
     console.log('TikTok Download Link:', tiktokDownloadLink);
 
-    // Adicione mais exemplos de chamadas de função aqui...
+ 
 
   } catch (error) {
     console.error('Error:', error);
